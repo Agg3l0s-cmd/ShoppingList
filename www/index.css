@@ -64,3 +64,20 @@ ul li{
 ul li:hover{
     background-color: #FFECC7;
 }
+
+.ftr{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 30px 20px;
+    border-top: 1px solid #ccc;
+    width: auto;
+}
+
+footer {
+    font-size: 14px;
+    color: #AC485A;
+}
