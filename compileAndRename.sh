@@ -1,15 +1,15 @@
 #!/bin/bash
 
-# cordova build android
+cordova build android
 
-# path="platforms/android/app/build/outputs/apk/debug/"
+path="platforms/android/app/build/outputs/apk/debug/"
 
-# if [ -e "$path/ShoppingList.apk" ]; then
-#     echo "Exists"
-# else
-#     mv "$path/app-debug.apk" "$path/ShoppingList.apk"
-#     cp "$path/ShoppingList.apk" "www/apk/"
-# fi
+if [ -e "$path/ShoppingList.apk" ]; then
+    echo "Exists"
+else
+    mv "$path/app-debug.apk" "$path/ShoppingList.apk"
+    cp "$path/ShoppingList.apk" "www/apk/"
+fi
 
 st=""
 
